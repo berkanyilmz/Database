@@ -38,8 +38,8 @@ public class DBHelper{
                 System.out.println();
             }
         } catch (SQLException e) {
-            System.out.println("Hata Kodu : " + e.getErrorCode());
-            System.out.println("Hata : " + e.getMessage());
+            System.out.println("Error Code : " + e.getErrorCode());
+            System.out.println("Error Message : " + e.getMessage());
         }
         finally {
             statement.close();
@@ -62,8 +62,8 @@ public class DBHelper{
             System.out.println("insert was successful");
             preparedStatement.close();
         } catch (SQLException e) {
-            System.out.println("Hata Kodu : " + e.getErrorCode());
-            System.out.println("Hata : " + e.getMessage());
+            System.out.println("Error Code : " + e.getErrorCode());
+            System.out.println("Error Message : " + e.getMessage());
         }
 
     }
