@@ -1,2 +1,2 @@
 # Database
-This repository contains database codes
+This repository contains database codes for different programming languages.
